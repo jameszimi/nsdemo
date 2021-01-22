@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ns-demo</string>
+    <string name="login_title_username">username</string>
+    <string name="login_title_password">password</string>
+    <string name="title_name">Name</string>
+    <string name="title_gender">gender</string>
+    <string name="title_grade">Grade</string>
+    <string name="title_premium">Premium</string>
+    <string name="main_toolbar_name">Dashboard</string>
+    <string name="title_login">Login</string>
+</resources>

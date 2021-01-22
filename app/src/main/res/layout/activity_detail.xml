@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.detail.DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/mainToolbar"
+            layout="@layout/toolbar_home"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal"
+            app:cardCornerRadius="70dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="20dp"
+            app:cardMaxElevation="6dp"
+            app:cardBackgroundColor="@color/teal_200"/>
+
+        <include
+            android:id="@+id/nameLayout"
+            layout="@layout/customer_detail_item"/>
+        <include
+            android:id="@+id/genderLayout"
+            layout="@layout/customer_detail_item"/>
+        <include
+            android:id="@+id/gradeLayout"
+            layout="@layout/customer_detail_item"/>
+        <include
+            android:id="@+id/premiumStatus"
+            layout="@layout/customer_detail_item"/>
+
+
+    </LinearLayout>
+
+</layout>

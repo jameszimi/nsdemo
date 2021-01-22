@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CardViewWithShadow">
+        <attr format="color" name="cardShadowColor"/>
+        <attr format="color" name="cardBackgroundColor"/>
+        <attr format="color" name="cardBorderColor"/>
+        <attr format="dimension" name="cardRadius"/>
+        <attr format="float" name="cardShadowAlpha"/>
+    </declare-styleable>
+
+</resources>

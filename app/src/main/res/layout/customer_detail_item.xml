@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="title"
+            type="String" />
+
+        <variable
+            name="value"
+            type="String" />
+
+    </data>
+
+    <GridLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:columnCount="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1.5"
+            android:lineSpacingExtra="8sp"
+            android:textStyle="normal"
+            android:text="@{title}"
+            tools:text="Premium" />
+
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="2"
+            android:lineSpacingExtra="8sp"
+            android:textStyle="normal"
+            android:text="@{value}"
+            tools:text="example" />
+
+
+    </GridLayout>
+
+</layout>
